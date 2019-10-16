@@ -23,7 +23,7 @@ function currentLine(line) {
   }
   else {
     var str = "The line is currently: "
-    for( i = 0; i < line.length; i++) {
+    for(var i = 0; i < line.length; i++) {
       str = str + (i+1) + ". " + line[i] + i<line.length-1 ? ',' : '';
     }
     console.log(str)
