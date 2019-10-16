@@ -12,5 +12,6 @@ function nowServing(line) {
   else {
     line.shift()
   }
+  return 0
   
 }
