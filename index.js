@@ -26,6 +26,7 @@ function currentLine(line) {
     for(var i = 0; i < line.length; i++) {
       str = str + (i+1) + ". " + line[i] + i<line.length-1 ? ',' : '';
     }
+    console.log(str)
     return str
   }
 }
