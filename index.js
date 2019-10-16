@@ -17,6 +17,8 @@ function nowServing(line) {
   
 }
 
-function currentLine() {
-  
+function currentLine(line) {
+  if(line.length === 0) {
+    
+  }
 }
